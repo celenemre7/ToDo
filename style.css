@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  background-color: #ff5532;
+  color: black;
+  border-color: #ff5532;
+}
+
+body {
+  background-color: black;
+}
+
+section {
+  margin-left: 35rem;
+  margin-right: 35rem;
+  color: white;
+}
+::placeholder {
+  background-color: #212529;
+  padding-left: 10px;
+}
+
+.input-wrapper input {
+  border: 1px solid #212529;
+  background-color: #212529;
+}
