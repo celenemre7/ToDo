@@ -13,8 +13,6 @@ body {
 }
 
 section {
-  margin-left: 35rem;
-  margin-right: 35rem;
   color: white;
 }
 ::placeholder {
@@ -25,4 +23,39 @@ section {
 .input-wrapper input {
   border: 1px solid #212529;
   background-color: #212529;
+}
+
+.margins {
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+@media (max-width: 1399.98px) {
+}
+
+@media (max-width: 1199.98px) {
+  .margins {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .margins {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .margins {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .margins {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 }
