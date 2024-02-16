@@ -23,11 +23,19 @@ section {
 .input-wrapper input {
   border: 1px solid #212529;
   background-color: #212529;
+  color: white;
+  padding-left: 10px;
 }
 
 .margins {
   margin-left: 20rem;
   margin-right: 20rem;
+}
+
+.active {
+  color: yellowgreen;
+  background-color: yellowgreen;
+  border-radius: 50%;
 }
 
 @media (max-width: 1399.98px) {
