@@ -108,7 +108,7 @@
     </section>
 
     <script>
-      // input
+      document.addEventListener("DOMContentLoaded", tikekle);
 
       function tikekle() {
         const circles = document.querySelectorAll(".fa-circle");
@@ -124,7 +124,6 @@
           });
         });
       }
-      tikekle();
 
       function isimDegistir() {
         const pens = document.querySelectorAll(".fa-pen-to-square");
@@ -139,7 +138,7 @@
         });
       }
       isimDegistir();
-
+      tikekle();
       const form = document.querySelector("form");
       form.addEventListener("submit", function (event) {
         event.preventDefault();
@@ -165,9 +164,9 @@
         );
 
         const taskIcerik = `
-         <div class="task-name d-flex align-items-center">
-            <i class="fa-regular fa-circle mx-2"></i>
-            <h4>${taskName}</h4>
+        <div class="task-name d-flex align-items-center">
+          <i class="fa-regular fa-circle mx-2"></i>
+          <h4>${taskName}</h4>
         </div>
         <div class="task-icons">
           <i class="fa-solid fa-pen-to-square"></i>
